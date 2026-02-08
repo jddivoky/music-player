@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify but worse</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <button title="Quit" type="button" id="quitButton" onclick="quit()"></button>
+    <button title="Minimize" type="button" id="minimizeButton" onclick="minimize()"></button>
+    <div class="app">
+      <h1>Spotify but worse</h1>
+      <button title="Back" type="button" id="backButton" onclick="goBack()"></button>
+      <button title="Play/Pause" type="button" id="playButton" onclick="play()"></button>
+      <button title="Next" type="button" id="nextButton" onclick="skip()"></button>
+      <div class="progressBar">
+      </div>
+
+      <button title="Import Songs" type="button" id="importButton" onclick="importSongs()"></button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+

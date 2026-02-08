@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+.tiny5-regular {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Tiny5", sans-serif;
+  position: center, absolute;
+
+  background: white;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@supports (-webkit-app-region: drag) {
+  body {
+    -webkit-app-region: drag;
+  }
+}
+
+.app {
+  padding: 16px;
+}
+
+h1 {
+  padding-top: 66px;
+}
+
+button, input, textarea, select {
+  @supports (-webkit-app-region: no-drag) {
+    -webkit-app-region: no-drag;
+  }
+  cursor: pointer;
+}
+
+#quitButton {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  border: none;
+  width: 64px;
+  height: 64px;
+  background-image: url(assets/quit.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+#quitButton:hover {
+  transition-duration: 3ms;
+  background-image: url(assets/quit-hover.png);
+}
+#minimizeButton {
+  position: absolute;
+  top: 1px;
+  right: 67px;
+  border: none;
+  width: 64px;
+  height: 64px;
+  background-image: url(assets/minimize.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+#minimizeButton:hover {
+  transition-duration: 3ms;
+  background-image: url(assets/minimize-hover.png);
+}
+
+#backButton {
+  border: none;
+  width: 64px;
+  height: 64px;
+  background-image: url(assets/back.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+#backButton:hover {
+  transition-duration: 3ms;
+  background-image: url(assets/back-hover.png);
+}
+
+#playButton {
+  border: none;
+  width: 64px;
+  height: 64px;
+  background-image: url(assets/play.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+#playButton:hover {
+  transition-duration: 3ms;
+  background-image: url(assets/play-hover.png);
+}
+
+#nextButton {
+  border: none;
+  width: 64px;
+  height: 64px;
+  background-image: url(assets/next.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+#nextButton:hover {
+  transition-duration: 3ms;
+  background-image: url(assets/next-hover.png);
+}
+
+#importButton {
+  align-self: center;
+  position: absolute;
+  bottom: 1px;
+  left: 118px;
+  border: none;
+  width: 64px;
+  height: 64px;
+  background-image: url(assets/import.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+#importButton:hover {
+  transition-duration: 3ms;
+  background-image: url(assets/import-hover.png);
+}
