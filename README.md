@@ -1,4 +1,13 @@
-Version 0.1.0 (Beta 1.0)
+## Version 0.1.0 (Beta 1.0)
+Bare-bones version of the media player; simply for showing what I'm currently working on.
+|Button/Feature|Functioning?|
+|---|---|
+|Close|Yes, of course!|
+|Minimize|Sadly, no 😔|
+|Go back a song|Also no|
+|Play/Pause|Yes!|
+|Skip song|Somehow, no|
+|Import|Well, duh|
 
 ---
 

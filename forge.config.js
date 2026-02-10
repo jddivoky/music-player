@@ -1,9 +1,13 @@
 const { FusesPlugin } = require('@electron-forge/plugin-fuses');
 const { FuseV1Options, FuseVersion } = require('@electron/fuses');
+const path = require('path');
+
+const iconPath = path.join(__dirname, 'assets', 'app-icon.ico');
 
 module.exports = {
   packagerConfig: {
     asar: true,
+    icon: iconPath,
   },
   rebuildConfig: {},
   makers: [
@@ -12,8 +16,9 @@ module.exports = {
       config: {
         authors: 'Jack Divoky',
         description: 'A music player application built with Electron',
-        setupExe: 'electron-app-Setup.exe',
-        setupMsi: 'electron-app-Setup.msi',
+        setupExe: 'music-player-Setup.exe',
+        setupMsi: 'music-player-Setup.msi',
+        setupIcon: iconPath,
         remoteReleases: '',
       },
     },

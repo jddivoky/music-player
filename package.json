@@ -36,6 +36,5 @@
     "scripts": {
       "dist": "electron-builder"
     }
-
   }
 }
