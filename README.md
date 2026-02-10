@@ -10,6 +10,7 @@ Bare-bones version of the media player; simply for showing what I'm currently wo
 |Import|Well, duh|
 
 Beta 1.1 adds the app icon, and both start menu and desktop shortcuts!
+App icon: ![myImage](/assets/app-icon.png)
 
 ---
 
