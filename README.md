@@ -1,4 +1,4 @@
-## Version 0.1.0 (Beta 1.0)
+## Version 0.1.1 (Beta 1.1)
 Bare-bones version of the media player; simply for showing what I'm currently working on.
 |Button/Feature|Functioning?|
 |---|---|
@@ -8,6 +8,8 @@ Bare-bones version of the media player; simply for showing what I'm currently wo
 |Play/Pause|Yes!|
 |Skip song|Somehow, no|
 |Import|Well, duh|
+
+Beta 1.1 adds the app icon, and both start menu and desktop shortcuts!
 
 ---
 
